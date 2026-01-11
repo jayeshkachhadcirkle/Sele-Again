@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a900e5d0-aa9b-4747-8248-a448ba7b22d0" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L_gen.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/L_gen.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map_v4.py" beforeDir="false" afterPath="$PROJECT_DIR$/map_v4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$L_gen.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jayeshkachhad"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jayeshkachhad&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jayeshkachhad/Sele-Again.git",
-    "accountId": "6a310001-ffc5-4fec-ac8b-03f9f222f619"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jayeshkachhad/Sele-Again.git&quot;,
+    &quot;accountId&quot;: &quot;6a310001-ffc5-4fec-ac8b-03f9f222f619&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/learning_selenium/first.py" root0="SKIP_INSPECTION" />
   </component>
@@ -48,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.FCMnotification.executor": "Run",
     "Python.MAPin.executor": "Run",
     "Python.MAPin_v2.executor": "Run",
@@ -278,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768145144576</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1768146589311</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768146589311</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

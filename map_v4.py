@@ -15,7 +15,7 @@ from plyer import notification
 # Rajasthan features vibrant cities like the capital historic Udaipur, the "City of Lakes"; the desert city of Jaisalmer, known for its golden fort; Jodhpur, the "Blue City" with its Mehrangarh Fort; and cultural hubs like Ajmer, Kota, and Bikaner, offering rich heritage, palaces, and unique desert landscapes.
 
 # url = "https://www.google.com/maps/search/cafe+near+Jodhpur/"
-url = "https://www.google.com/maps/search/cafe+near+Bikaner/"
+url = "https://www.google.com/maps/search/cafe+near+noida/"
 # url = "https://www.google.com/maps/search/cafe+near+Kota/"
 
 wb = load_workbook('L_gen.xlsx')
