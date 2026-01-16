@@ -1,0 +1,400 @@
+{
+    "id": 1006,
+    "compid": 122,
+    "name": "Pizza",
+    "pos": 3,
+    "info": "Ai Gen",
+    "createdAt": "2026-01-14T10:02:18.000000Z",
+    "updatedAt": "2026-01-14T10:02:18.000000Z",
+    "items": [
+        {
+            "id": 5541,
+            "compid": 122,
+            "catid": 1006,
+            "pos": 1,
+            "name": "Plain Margherita",
+            "type": 1,
+            "price": 180,
+            "price2": 222,
+            "info": "info",
+            "created_at": "2026-01-14T10:02:18.000000Z",
+            "updated_at": "2026-01-14T10:02:18.000000Z",
+            "variants": [
+                {
+                    "id": 5771,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5541,
+                    "name": "Medium 8\"",
+                    "price": 180,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:18.000000Z",
+                    "updatedAt": "2026-01-14T10:02:18.000000Z"
+                },
+                {
+                    "id": 5772,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5541,
+                    "name": "Large 10\"",
+                    "price": 230,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:18.000000Z",
+                    "updatedAt": "2026-01-14T10:02:18.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 5542,
+            "compid": 122,
+            "catid": 1006,
+            "pos": 2,
+            "name": "Italian",
+            "type": 1,
+            "price": 200,
+            "price2": 222,
+            "info": "info",
+            "created_at": "2026-01-14T10:02:19.000000Z",
+            "updated_at": "2026-01-14T10:02:19.000000Z",
+            "variants": [
+                {
+                    "id": 5773,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5542,
+                    "name": "Medium 8\"",
+                    "price": 200,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:19.000000Z",
+                    "updatedAt": "2026-01-14T10:02:19.000000Z"
+                },
+                {
+                    "id": 5774,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5542,
+                    "name": "Large 10\"",
+                    "price": 250,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:19.000000Z",
+                    "updatedAt": "2026-01-14T10:02:19.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 5543,
+            "compid": 122,
+            "catid": 1006,
+            "pos": 3,
+            "name": "Sweet Corn",
+            "type": 1,
+            "price": 260,
+            "price2": 222,
+            "info": "info",
+            "created_at": "2026-01-14T10:02:20.000000Z",
+            "updated_at": "2026-01-14T10:02:20.000000Z",
+            "variants": [
+                {
+                    "id": 5775,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5543,
+                    "name": "Medium 8\"",
+                    "price": 260,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:20.000000Z",
+                    "updatedAt": "2026-01-14T10:02:20.000000Z"
+                },
+                {
+                    "id": 5776,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5543,
+                    "name": "Large 10\"",
+                    "price": 300,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:20.000000Z",
+                    "updatedAt": "2026-01-14T10:02:20.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 5544,
+            "compid": 122,
+            "catid": 1006,
+            "pos": 4,
+            "name": "OTC Veggie",
+            "type": 1,
+            "price": 260,
+            "price2": 222,
+            "info": "info",
+            "created_at": "2026-01-14T10:02:21.000000Z",
+            "updated_at": "2026-01-14T10:02:21.000000Z",
+            "variants": [
+                {
+                    "id": 5777,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5544,
+                    "name": "Medium 8\"",
+                    "price": 260,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:21.000000Z",
+                    "updatedAt": "2026-01-14T10:02:21.000000Z"
+                },
+                {
+                    "id": 5778,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5544,
+                    "name": "Large 10\"",
+                    "price": 300,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:21.000000Z",
+                    "updatedAt": "2026-01-14T10:02:21.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 5545,
+            "compid": 122,
+            "catid": 1006,
+            "pos": 5,
+            "name": "Mexican",
+            "type": 1,
+            "price": 260,
+            "price2": 222,
+            "info": "info",
+            "created_at": "2026-01-14T10:02:22.000000Z",
+            "updated_at": "2026-01-14T10:02:22.000000Z",
+            "variants": [
+                {
+                    "id": 5779,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5545,
+                    "name": "Medium 8\"",
+                    "price": 260,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:22.000000Z",
+                    "updatedAt": "2026-01-14T10:02:22.000000Z"
+                },
+                {
+                    "id": 5780,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5545,
+                    "name": "Large 10\"",
+                    "price": 300,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:22.000000Z",
+                    "updatedAt": "2026-01-14T10:02:22.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 5546,
+            "compid": 122,
+            "catid": 1006,
+            "pos": 6,
+            "name": "Paneer Veg",
+            "type": 1,
+            "price": 260,
+            "price2": 222,
+            "info": "info",
+            "created_at": "2026-01-14T10:02:23.000000Z",
+            "updated_at": "2026-01-14T10:02:23.000000Z",
+            "variants": [
+                {
+                    "id": 5781,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5546,
+                    "name": "Medium 8\"",
+                    "price": 260,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:23.000000Z",
+                    "updatedAt": "2026-01-14T10:02:23.000000Z"
+                },
+                {
+                    "id": 5782,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5546,
+                    "name": "Large 10\"",
+                    "price": 300,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:23.000000Z",
+                    "updatedAt": "2026-01-14T10:02:23.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 5547,
+            "compid": 122,
+            "catid": 1006,
+            "pos": 7,
+            "name": "MBC Veggie",
+            "type": 1,
+            "price": 200,
+            "price2": 222,
+            "info": "info",
+            "created_at": "2026-01-14T10:02:24.000000Z",
+            "updated_at": "2026-01-14T10:02:24.000000Z",
+            "variants": [
+                {
+                    "id": 5783,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5547,
+                    "name": "Medium 8\"",
+                    "price": 200,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:24.000000Z",
+                    "updatedAt": "2026-01-14T10:02:24.000000Z"
+                },
+                {
+                    "id": 5784,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5547,
+                    "name": "Large 10\"",
+                    "price": 250,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:24.000000Z",
+                    "updatedAt": "2026-01-14T10:02:24.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 5548,
+            "compid": 122,
+            "catid": 1006,
+            "pos": 8,
+            "name": "5 Cheese Pizza",
+            "type": 1,
+            "price": 330,
+            "price2": 222,
+            "info": "info",
+            "created_at": "2026-01-14T10:02:25.000000Z",
+            "updated_at": "2026-01-14T10:02:25.000000Z",
+            "variants": [
+                {
+                    "id": 5785,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5548,
+                    "name": "Actual 10\"",
+                    "price": 330,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:25.000000Z",
+                    "updatedAt": "2026-01-14T10:02:25.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 5549,
+            "compid": 122,
+            "catid": 1006,
+            "pos": 9,
+            "name": "American",
+            "type": 1,
+            "price": 450,
+            "price2": 222,
+            "info": "info",
+            "created_at": "2026-01-14T10:02:26.000000Z",
+            "updated_at": "2026-01-14T10:02:26.000000Z",
+            "variants": [
+                {
+                    "id": 5786,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5549,
+                    "name": "Actual 10\"",
+                    "price": 450,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:26.000000Z",
+                    "updatedAt": "2026-01-14T10:02:26.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 5550,
+            "compid": 122,
+            "catid": 1006,
+            "pos": 10,
+            "name": "Cheesy Pizza",
+            "type": 1,
+            "price": 290,
+            "price2": 222,
+            "info": "info",
+            "created_at": "2026-01-14T10:02:27.000000Z",
+            "updated_at": "2026-01-14T10:02:27.000000Z",
+            "variants": [
+                {
+                    "id": 5787,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5550,
+                    "name": "Actual 10\"",
+                    "price": 290,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:27.000000Z",
+                    "updatedAt": "2026-01-14T10:02:27.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 5551,
+            "compid": 122,
+            "catid": 1006,
+            "pos": 11,
+            "name": "2 in 1 Pizza",
+            "type": 1,
+            "price": 230,
+            "price2": 222,
+            "info": "info",
+            "created_at": "2026-01-14T10:02:28.000000Z",
+            "updated_at": "2026-01-14T10:02:28.000000Z",
+            "variants": [
+                {
+                    "id": 5788,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5551,
+                    "name": "Large 10\"",
+                    "price": 230,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:28.000000Z",
+                    "updatedAt": "2026-01-14T10:02:28.000000Z"
+                }
+            ]
+        },
+        {
+            "id": 5552,
+            "compid": 122,
+            "catid": 1006,
+            "pos": 12,
+            "name": "4 in 1 Pizza",
+            "type": 1,
+            "price": 250,
+            "price2": 222,
+            "info": "info",
+            "created_at": "2026-01-14T10:02:29.000000Z",
+            "updated_at": "2026-01-14T10:02:29.000000Z",
+            "variants": [
+                {
+                    "id": 5789,
+                    "compid": 122,
+                    "catid": 1006,
+                    "itemid": 5552,
+                    "name": "Large 10\"",
+                    "price": 250,
+                    "info": "Ai Gen",
+                    "createdAt": "2026-01-14T10:02:29.000000Z",
+                    "updatedAt": "2026-01-14T10:02:29.000000Z"
+                }
+            ]
+        }
+    ]
+}
