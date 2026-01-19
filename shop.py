@@ -1,3 +1,4 @@
+import json
 import time
 import re
 from selenium import webdriver
@@ -189,12 +190,15 @@ class ShopifyContactScraper:
 # Example usage
 if __name__ == "__main__":
     # Add your Shopify store URLs here
-    store_urls = [
-        "https://redtape.com",
-    "https://jayesh-cirkle.myshopify.com",
-    "https://dte2dc-ra.myshopify.com",
-        # Add more URLs as needed
-    ]
+    # store_urls = [
+    #     "https://redtape.com",
+    # "https://jayesh-cirkle.myshopify.com",
+    # "https://dte2dc-ra.myshopify.com",
+    #     # Add more URLs as needed
+    # ]
+
+    with open("sresults_hosts.json", "r", encoding="utf-8") as f:
+        store_urls = json.load(f)
     
     print("Shopify Contact Information Scraper")
     print("="*60)
