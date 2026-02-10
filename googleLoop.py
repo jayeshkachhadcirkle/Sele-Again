@@ -8,19 +8,52 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import NoSuchElementException
 from urllib.parse import urlparse
+from fake_useragent import UserAgent
 
-SEARCH_QUERY = "apparels site in dubai"
+
+# SEARCH_QUERY = "samsung mobiles in canada -site:amazon.com -site:samsung.com"
+SEARCH_QUERY = "mens clothing store in toronto"
 OUTPUT_FILE = "search_results.json"
 DELAY = 2  # seconds between page loads
 
+
+ua = UserAgent()
+
+def get_headers():
+    return {
+        "User-Agent": ua.random,
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept": "text/html,application/xhtml+xml",
+        "Connection": "keep-alive",
+    }
+
 def setup_driver():
+    # Prepare Chrome options and set a fake User-Agent from get_headers()
     options = Options()
     options.add_argument("--start-maximized")
     options.add_argument("--disable-blink-features=AutomationControlled")
-    return webdriver.Chrome(
+
+    # Use the fake user agent returned by get_headers()
+    headers = get_headers()
+    ua_string = headers.get("User-Agent")
+    if ua_string:
+        options.add_argument(f"user-agent={ua_string}")
+
+    driver = webdriver.Chrome(
         service=Service(ChromeDriverManager().install()),
         options=options
     )
+
+    # Optionally set extra HTTP headers via Chrome DevTools Protocol (CDP).
+    # This can apply other headers like Accept-Language for each request.
+    try:
+        driver.execute_cdp_cmd("Network.enable", {})
+        driver.execute_cdp_cmd("Network.setExtraHTTPHeaders", {"headers": headers})
+    except Exception:
+        # If the driver doesn't support CDP commands, ignore silently.
+        pass
+
+    return driver
 
 def load_existing_results(filename):
     """Load existing results from JSON file"""
