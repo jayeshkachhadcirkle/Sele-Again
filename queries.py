@@ -6,7 +6,7 @@ genders = [
 ]
 
 clothing_types = [
-    "clothing", "fashion", "apparel", "formal wear",
+    "fashion", "apparel", "formal wear",
     "sportswear", "luxury clothing"
 ]
 
@@ -61,7 +61,7 @@ for clothing in clothing_types:
     for store in store_types:
         for geo in bigCities:
             queries.append(
-                f" {clothing} {store} in {geo}"
+                f"{clothing} {store} in {geo}"
             )
 
 print(json.dumps(queries, indent=2))
